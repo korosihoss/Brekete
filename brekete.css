@@ -15,9 +15,8 @@
 .result-main-con{
     border: 1px solid darkgreen;
     width: 100%;
-    height : 210px;
+    height : 310px;
     margin-top:30px;
-    text-align: center;
 }
 .result-inner-con{
     padding : 5px;
