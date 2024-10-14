@@ -1,0 +1,54 @@
+
+1body{
+   margin: 10px;
+}
+.top h3{
+    display : inline;
+}
+.top img{
+    width: 80px;
+}
+.top i{
+    display : inline-block;
+    margin-top: -220px;
+}
+.result-main-con{
+    border: 1px solid darkgreen;
+    width: 100%;
+    height : 210px;
+    margin-top:30px;
+    text-align: center;
+}
+.result-inner-con{
+    padding : 5px;
+}
+result-inner-con p{
+    margin:0;
+    padding: 0;
+}
+.check-result-con{
+    margin-top: 30px;
+}
+.check-result-con input{
+    height: 40px;
+    width: 80%;
+    margin-bottom: 20px;
+}
+.check-result-con input:focus{
+    outline:none;
+}
+.check-result-con button{
+    background-color: darkred;
+    border: none;
+    color: white;
+    height : 35px;
+    width: 20%;
+    font-weight: bold;
+}
+.check-result-con button:nth-child(2){
+    background-color: darkgreen;
+    border: none;
+    color: white;
+    width: 30%;
+    margin-right: 20px;
+}
