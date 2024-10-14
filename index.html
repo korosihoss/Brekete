@@ -4,24 +4,30 @@
     <meta charset="UTF-8">
     <title>Page title</title>
     <link rel="stylesheet" href="brekete.css">
-    <script src="https://kit.fontawesome.com/8482dba9f8.js" crossorigin="anonymous"></script>
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+</style>
 </head>
 <body>
     <div class="top">
         <img src="glo.png" alt="glo-logo">
-        <h3>Brekete Tariff calculator</h3>
-        <i class="fa-solid fa-bars"></i>
+        <h1>Brekete Tariff calculator</h1>
     </div>
   <div class="result-main-con">
       <div class="result-inner-con">
-          <h3 class="result-heading">INFO</h3>
-          <p>h</p>
-          <p class="result-text">Recharge Amount: </p>
-          <p>Main Account Balance: </p>
-          <p>Bonus Account Balance:</p>
-          <p>Data Bonus: </p>
-          <p>Bonus Talk Time: 5m 8sec(77kps)</p>
-          <p>Main Acct Talk Time: 4m 6sec(34kps)</p>
+          <h3 class="result-heading"style="text-align: center;">INFO</h3>
+          <p>This amount is not qualify for bonuses &nbsp</p>
+          <ul>
+              <li>Recharge Amount: <span id="rechargeAmnt">--</span></li>
+              <li>Main Account Balance: <span id="balance">--</span></li>
+              <li>Bonus Account Balance: <span id="airtimeBonus">--</span></li>
+              <li>Data Bonus: <span id="dataBonus">--</span></li>
+              <li>Main Acct Talk Time: <span id="mainTalkTime">--</span></li>
+              <li>Bonus Talk Time: <span id="bonusTalkTime">--</span></li>
+              <li>Overall Talk Time: <span id="allTalkTime">--</span></li>
+          </ul>
       </div>
   </div>
   
@@ -32,8 +38,8 @@
               <input type="text"id="inputField" name="inputField" placeholder="Amount">
           </label>
       </div>
-      <button class="check-btn" onclick="checkInput()">Check</button>
-      <button class="reset-btn">Reset</button
+      <button class="reset-btn">Reset</button>
+      <button class="check-btn"onclick="checkInput()">Check</button
   </div>  
   
   <script src="brekete.js"></script>

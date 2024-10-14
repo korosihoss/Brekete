@@ -1,7 +1,12 @@
 
-1body{
+body{
    margin: 10px;
+   font-family: inconsolata;
 }
+h1,h2,h3{
+    font-family: Montserrat;
+}
+    
 .top h3{
     display : inline;
 }
@@ -10,7 +15,7 @@
 }
 .top i{
     display : inline-block;
-    margin-top: -220px;
+    
 }
 .result-main-con{
     border: 1px solid darkgreen;
@@ -21,12 +26,17 @@
 .result-inner-con{
     padding : 5px;
 }
-result-inner-con p{
+.result-inner-con ul{
     margin:0;
     padding: 0;
 }
+.result-inner-con li{
+    margin-bottom: 12px;
+    list-style-type: none;
+    font-size: 1.03em;
+}
 .check-result-con{
-    margin-top: 30px;
+    margin-top: 10px;
 }
 .check-result-con input{
     height: 40px;
@@ -43,11 +53,13 @@ result-inner-con p{
     height : 35px;
     width: 20%;
     font-weight: bold;
+    margin-left: 10px;
+    border-radius: .4em;
 }
-.check-result-con button:nth-child(2){
+.check-result-con button:nth-child(3){
     background-color: darkgreen;
     border: none;
     color: white;
     width: 30%;
-    margin-right: 20px;
+    margin-left: 20px;
 }
