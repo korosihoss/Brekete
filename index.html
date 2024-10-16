@@ -17,8 +17,8 @@
     </div>
   <div class="result-main-con">
       <div class="result-inner-con">
-          <h3 class="result-heading"style="text-align: center;">INFO</h3>
-          <p>This amount is not qualify for bonuses &nbsp</p>
+          <h3 class="result-heading"style="text-align: center;">BREAKDOWN</h3>
+          <p id="feedBack" style=" font-weight: bold;">Calculate bonuses and talk time on a single recharge</p>
           <ul>
               <li>Recharge Amount: <span id="rechargeAmnt">--</span></li>
               <li>Main Account Balance: <span id="balance">--</span></li>
@@ -38,7 +38,7 @@
               <input type="text"id="inputField" name="inputField" placeholder="Amount">
           </label>
       </div>
-      <button class="reset-btn">Reset</button>
+      <button class="reset-btn" onclick="reset()">Reset</button>
       <button class="check-btn"onclick="checkInput()">Check</button
   </div>  
   
