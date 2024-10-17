@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width=initial-scale=1.0">
     <title>Page title</title>
     <link rel="stylesheet" href="brekete.css">
     <style>
@@ -17,11 +18,10 @@
     </div>
   <div class="result-main-con">
       <div class="result-inner-con">
-          <h3 class="result-heading"style="text-align: center;">BREAKDOWN</h3>
-          <p id="feedBack" style=" font-weight: bold;">Calculate bonuses and talk time on a single recharge</p>
+          <h3>BREAKDOWN</h3>
+          <p id="feedBack">Calculate bonuses and talk time on a single recharge</p>
           <ul>
-              <li>Recharge Amount: <span id="rechargeAmnt">--</span></li>
-              <li>Main Account Balance: <span id="balance">--</span></li>
+              <li>Recharge Amount: <span id="rechargedAmount">--</span></li>
               <li>Bonus Account Balance: <span id="airtimeBonus">--</span></li>
               <li>Data Bonus: <span id="dataBonus">--</span></li>
               <li>Main Acct Talk Time: <span id="mainTalkTime">--</span></li>
@@ -33,13 +33,13 @@
   
   <div class="check-result-con">
       <div>
-          <label for="inputField">
+          <label for="userInput">
               Enter recharged amount
-              <input type="text"id="inputField" name="inputField" placeholder="Amount">
+              <input type="text"id="userInput" name="userInput" placeholder="Amount">
           </label>
       </div>
       <button class="reset-btn" onclick="reset()">Reset</button>
-      <button class="check-btn"onclick="checkInput()">Check</button
+      <button class="check-btn"onclick="checkUserInput()">Check</button
   </div>  
   
   <script src="brekete.js"></script>
