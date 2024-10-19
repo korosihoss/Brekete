@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width=initial-scale=1.0">
+    <meta property="og:image" content=”load.jpg” />
     <title>Page title</title>
     <link rel="stylesheet" href="brekete.css">
     <style>
@@ -18,8 +19,8 @@
     </div>
   <div class="result-main-con">
       <div class="result-inner-con">
-          <h3>BREAKDOWN</h3>
-          <p id="feedBack">Calculate bonuses and talk time on a single recharge</p>
+          <h3>Recharge Details</h3>
+          <p id="feedBack" style="font-weight: bold;">Calculate bonuses and talk time on a single recharge🔋</p>
           <ul>
               <li>Recharge Amount: <span id="rechargedAmount">--</span></li>
               <li>Bonus Account Balance: <span id="airtimeBonus">--</span></li>
@@ -41,7 +42,11 @@
       <button class="reset-btn" onclick="reset()">Reset</button>
       <button class="check-btn"onclick="checkUserInput()">Check</button
   </div>  
-  
+  <div class="loading-container">
+      <div class="img-container">
+          
+      </div>
+  </div>
   <script src="brekete.js"></script>
 </body>
 </html>

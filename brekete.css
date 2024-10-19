@@ -65,3 +65,24 @@ ul span{
     width: 30%;
     margin-left: 20px;
 }
+.loading-container{
+    display : block;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    background: white;
+}
+.img-container{
+    display : inline-block;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    background-image: url('load.jpg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
