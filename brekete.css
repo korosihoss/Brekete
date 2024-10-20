@@ -1,4 +1,4 @@
-
+@media only screen and (max-width: 600px) {
 body{
    margin: 10px;
    font-family: inconsolata;
@@ -85,4 +85,28 @@ ul span{
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
+ }
+ .big-screen-error{
+     display: none;
+ }
+}
+
+@media only screen and (min-width: 600px) {
+
+.big-screen-error{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    background-color: white;
+    text-align: center;
+}
+.top{
+    display : none;
+}
 }
